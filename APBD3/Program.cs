@@ -209,7 +209,7 @@ public class ContainerShip(int maxSpeed, int maxContainers, double maxWeight)
     public void RemoveContainer(Container container)
     {
         _containers.Remove(container);
-        Console.WriteLine($"Container unloaded: {container.SerialNum}");
+        Console.WriteLine($"Container removed: {container.SerialNum}");
     }
     
     public void ReplaceContainer(int index, Container newContainer)
