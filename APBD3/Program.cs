@@ -182,8 +182,8 @@ public class ContainerShip(int maxSpeed, int maxContainers, double maxWeight)
 {
     private readonly List<Container> _containers = new List<Container>();
     private int MaxSpeed { get; } = maxSpeed; //knots
-    private int MaxContainers { get; } = maxContainers; //tons
-    private double MaxWeight { get; } = maxWeight;
+    private int MaxContainers { get; } = maxContainers; 
+    private double MaxWeight { get; } = maxWeight; //tons
 
     public void LoadContainer(Container container)
     {
